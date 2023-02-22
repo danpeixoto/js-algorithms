@@ -1,4 +1,4 @@
-const { generateNumbers } = require('../utils/index');
+const { generateNumbers } = require('../../utils');
 
 const SEARCH_THIS = 420;
 console.log('We will search this number', { number: SEARCH_THIS });
