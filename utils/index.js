@@ -18,8 +18,6 @@ const swapNumbers = (arr, x, y) => {
 const isSorted = (arr) => {
   for (let i = 0; i < (arr.length - 1); i++) {
     if (arr[i] > arr[i + 1]) {
-      console.log(i);
-      console.log(arr[i], arr[i + 1]);
       return false;
     }
   }

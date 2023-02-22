@@ -10,5 +10,4 @@ for (let x = numberArray.length - 1; x > 0; x--) {
   }
 }
 
-console.log(numberArray);
 console.log('Is the arrya sorted?', isSorted(numberArray));
