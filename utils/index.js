@@ -9,6 +9,26 @@ const generateNumbers = (dirname, maxNumbers = 1000, maxValue = 1000) => {
   return numberArray;
 };
 
+const swapNumbers = (arr, x, y) => {
+  let temp = arr[x];
+  arr[x] = arr[y];
+  arr[y] = temp;
+};
+
+const isSorted = (arr) => {
+  for (let i = 0; i < (arr.length - 1); i++) {
+    if (arr[i] > arr[i + 1]) {
+      console.log(i);
+      console.log(arr[i], arr[i + 1]);
+      return false;
+    }
+  }
+
+  return true;
+};
+
 module.exports = {
-  generateNumbers
+  generateNumbers,
+  swapNumbers,
+  isSorted
 };
