@@ -21,4 +21,4 @@ while (h > 0) {
   }
 }
 console.log(numberArray);
-console.log('Is the arrya sorted?', isSorted(numberArray));
+console.log('Is the array sorted?', isSorted(numberArray));

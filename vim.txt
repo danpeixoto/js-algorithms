@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------
+<ctrl-p> ou <ctrl-n> é usado para fazer busca no menu de auto complete
+--------------------------------------------------------------------------------
+gx abre um link
+gf abre um arquivo
+http://www.google.com
+./utils/index.js
+--------------------------------------------------------------------------------
+
+:X salva um arquivo criptografado
